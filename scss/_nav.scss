@@ -1,0 +1,30 @@
+//nesting / anidacion
+
+.botonera {
+    background-color: $keyColor;
+    font-family: $mainFont;
+
+    img {
+        width: 100px;
+    }
+
+    ul {
+        li {
+            a {
+                &:hover {
+                    color: rgb(241, 212, 148);
+                    text-decoration: underline;
+                    font-family: $mainFont;
+                }
+            }
+        }
+    }
+}
+
+
+.navbar-nav .nav-link {
+    color: rgb(236, 220, 198);
+    font-family: $mainFont;
+    font-weight: 300;
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+//extend
+
+.btn-brown {
+    background-color: burlywood;
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: rgb(168, 142, 107);
+        text-decoration: underline;
+    }
+
+}
+
+.btn-rounded {
+    @extend .btn-brown;
+    background-color: rgb(187, 169, 146);
+    border: ridge 3px rgb(109, 81, 45);
+}
+
+//mixin
+@mixin textos ($size , $weight , $color , $align){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    font-family: $mainFont;
+    text-align: $align;
+
+}

@@ -1,0 +1,108 @@
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid: actions;
+
+    button {
+        margin-left: 10px;
+        background-color: rgb(212, 195, 171);
+        color: $secondaryColor;
+        padding: 6px;
+        border: none;
+        border-radius: 3px;
+    }
+
+    input {
+        border-radius: 3px;
+        color: $secondaryColor;
+        background-color: rgb(206, 184, 156);
+        padding: 6px;
+    }
+}
+
+.filters {
+    padding: 0 10px 30px 30px;
+
+    a {
+        color: rgb(231, 207, 173);
+        font-size: 1.5rem;
+        text-decoration: none;
+        margin-bottom: 4px;
+        text-transform: lowercase;
+    }
+
+    a {
+        &:hover {
+            color: $mainColor;
+        }
+    }
+
+    span {
+        display: block;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        letter-spacing: 1px;
+    }
+
+    select {
+        color: white;
+        border: none;
+        background-color: rgb(134, 116, 100);
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+
+    li {
+        padding-left: 10px;
+        list-style: none;
+    }
+}
+
+.tienda {
+    display: grid;
+    grid-template-columns: 1fr, repeat(2, 2fr);
+    grid-template-rows: 50px 200px 200px 200px;
+    gap: 10px;
+    grid-template-areas:
+        "actions actions actions"
+        "filters uno dos"
+        "filters tres cuatro";
+
+    section {
+        border-radius: 10px;
+    }
+
+    .actions {
+        background-color: rgb(128, 113, 95);
+        padding: 0 30px;
+        grid-area: actions;
+    }
+
+    .filters {
+        grid-area: filters;
+    }
+
+    .producto1 {
+        grid-area: uno;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .producto2 {
+        grid-area: dos;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .producto3 {
+        grid-area: tres;
+        margin-right: 15px;
+
+    }
+
+    .producto4 {
+        grid-area: cuatro;
+        margin-right: 15px;
+    }
+}

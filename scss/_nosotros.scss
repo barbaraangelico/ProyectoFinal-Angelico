@@ -1,0 +1,93 @@
+.texto-nosotros {
+    max-width: 700px;
+    width: 100%;
+    padding: 45px 20px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: $textLg;
+}
+
+.parrafo {
+    font-size: $textSm;
+}
+
+.gallery {
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "fot-1 fot-2 fot-3"
+        "fot-1 fot-4 fot-3"
+        "fot-5 fot-6 fot-7";
+
+    gap: 10px;
+
+
+}
+
+.foto1 {
+    grid-area: fot-1;
+}
+
+.foto2 {
+    grid-area: fot-2;
+}
+
+.foto3 {
+    grid-area: fot-3;
+}
+
+.foto4 {
+    grid-area: fot-4;
+}
+
+.foto5 {
+    grid-area: fot-5;
+}
+
+.foto6 {
+    grid-area: fot-6;
+}
+
+.foto7 {
+    grid-area: fot-7;
+}
+
+.videos {
+    padding: 32px 30px 20px 40px;
+    background-color: $secondaryColor;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .vid1,
+    .vid2,
+    .vid3,
+    .vid4 {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .vid-nosotros {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.box-top {
+    padding: 4px 0;
+    text-align: center;
+    color: rgb(126, 125, 116);
+    background-color: rgb(228, 200, 165);
+    font-size: 2rem;
+}
+
+.container-img img {
+    width: 30%;
+    height: auto;
+    margin-top: 50px;
+    padding: 0 10px;
+}

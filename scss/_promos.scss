@@ -1,0 +1,26 @@
+.card {
+    background-color: #8d7e67;
+    margin-right: 10px;
+}
+
+.linear-gradient {
+    background: linear-gradient(to top, #9b8159, #aca497);
+    font-size: $textSm ;
+    font-family: $mainFont ;
+}
+
+.btn-rounded {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to top, #524532, #756446);
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+.btn-rounded:hover {
+    background: linear-gradient(to bottom, #97794b, #e7c99c);
+    transition: all 1s;
+    cursor: pointer;
+}
