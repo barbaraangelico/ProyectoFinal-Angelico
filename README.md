@@ -1,6 +1,6 @@
 ![header](https://user-images.githubusercontent.com/101370090/235022904-2bace163-93bc-4f29-95cf-2b6c608dea66.png)
 
-El siguiente proyecto es sobre una cafetería imaginaria.El cual se ha desarrollado utilizando html, css, sass, bootstrap, flexbox y grid. 
+El siguiente proyecto es sobre una cafetería imaginaria. El cual se ha desarrollado utilizando html, css, sass, bootstrap, flexbox y grid. 
 
 𝗖𝗢𝗡𝗧𝗘𝗡𝗜𝗗𝗢
 
