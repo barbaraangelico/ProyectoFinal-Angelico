@@ -9,10 +9,13 @@
     background: rgb(100, 95, 85);
     box-shadow: 0 0 1rem #131212;
     border-radius: 0.5rem;
-    overflow: hidden;
+    padding: 10px;
+
    
 }
-
+.contact{
+    padding: 15px;
+}
 .form-container {
     padding: 20px;
 
@@ -26,6 +29,7 @@
 .contact-form {
     display: grid;
     row-gap: 1rem;
+    
 
     input,
     textarea {

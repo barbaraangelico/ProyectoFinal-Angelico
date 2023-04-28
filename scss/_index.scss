@@ -1,14 +1,32 @@
 .container {
     background-color: rgb(94, 83, 68);
     padding: 10px;
+    
 }
 
 .indice-texto {
     text-align: center;
+h4{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+    p {
+        justify-content: center;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .btn-brown {
+
+        margin-top: 5px;
+
+    }
 }
 
 .indice-img {
-    justify-content: center;
+    align-items: center;
 }
 
 .indicee {
@@ -35,7 +53,8 @@
 
 .imagen1 {
     grid-area: img1;
-    img{
+
+    img {
         width: 100%;
         height: 100%;
     }
@@ -52,7 +71,8 @@
 
 .imagen2 {
     grid-area: img2;
-    img{
+
+    img {
         width: 100%;
         height: 100%;
     }
@@ -60,7 +80,8 @@
 
 .imagen3 {
     grid-area: img3;
-    img{
+
+    img {
         width: 100%;
         height: 100%;
     }
@@ -68,7 +89,8 @@
 
 .imagen4 {
     grid-area: img4;
-    img{
+
+    img {
         width: 100%;
         height: 100%;
     }
@@ -76,7 +98,8 @@
 
 .imagen5 {
     grid-area: img5;
-    img{
+
+    img {
         width: 100%;
         height: 100%;
     }
@@ -88,13 +111,13 @@
     text-align: center;
     justify-content: center;
     padding: 20px 20px 20px 20px;
-    
+
     img {
         margin-left: 22px;
         max-width: 300px;
         padding: 10px 10px 10px 10px;
         margin-bottom: 30px;
-        
+
 
         &:hover {
             filter: opacity(.5);

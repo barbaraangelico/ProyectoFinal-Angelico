@@ -1,6 +1,6 @@
-@media (max-width: $smartphone) and (max-width: $desktop) {
-    .carousel-caption {
-        bottom: 367px;
+@media (max-width: $smartphone) {
+    .carousel-inner {
+
 
         p {
             width: 100%;
@@ -27,14 +27,39 @@
 }
 
 @media screen and (max-width: $tablet) {
+    .container-fluid {
+        .title {
+            font-size: $textMd;
+
+        }
+    }
+}
+
+
+@media screen and (max-width: $smartphone) {
+    .container-fluid {
+        .title {
+            font-size: $textSm;
+        }
+    }
+}
+
+
+@media screen and (max-width: $tablet) {
+    .contact {
+        padding: 25px;
+    }
 
     .form-container {
+
+
         h1 {
             font-size: 30px;
         }
     }
 
     .contact-container {
+
         display: flex;
         flex-direction: column;
     }
@@ -46,18 +71,39 @@
 }
 
 @media screen and (max-width: $smartphone) {
+    .contact {
+        padding: 25px;
+    }
 
     .form-container {
+
         flex-direction: column;
 
         h1 {
-            font-size: 25px;
+            font-size: 35px;
         }
     }
 
 
     .map iframe {
         height: 450px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .form-container {
+
+        flex-direction: column;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+
+    .map iframe {
+        height: 400px;
     }
 }
 
@@ -137,6 +183,7 @@
 }
 
 @media only screen and (max-width: $smartphone) {
+
     .gallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
