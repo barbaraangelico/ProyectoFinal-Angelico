@@ -62,20 +62,21 @@
     display: flex;
     flex-wrap: wrap;
 
-
-    .vid1,
-    .vid2,
-    .vid3,
-    .vid4 {
-        padding: 10px 10px 10px 10px;
-    }
-
-    .vid-nosotros {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
 }
+
+.vid1,
+.vid2,
+.vid3,
+.vid4 {
+    padding: 10px 10px 10px 10px;
+}
+
+.vid-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 .box-top {
     padding: 4px 0;

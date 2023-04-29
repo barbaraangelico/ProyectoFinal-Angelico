@@ -41,7 +41,6 @@ body {
 
 .title {
   font-size: 2.5em;
-  overflow: hidden;
 }
 
 h1 {
@@ -525,13 +524,15 @@ main img {
     width: 100%;
     grid-gap: 10px;
   }
+  .videos {
+    display: inline-block;
+  }
+  .vid-nosotros iframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
 }
-.vid-nosotros iframe {
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-}
-
 @media only screen and (max-width: 768px) {
   .vid-nosotros iframe {
     height: 180px;
@@ -615,13 +616,15 @@ main img {
   display: flex;
   flex-wrap: wrap;
 }
-.videos .vid1,
-.videos .vid2,
-.videos .vid3,
-.videos .vid4 {
+
+.vid1,
+.vid2,
+.vid3,
+.vid4 {
   padding: 10px 10px 10px 10px;
 }
-.videos .vid-nosotros {
+
+.vid-nosotros {
   display: flex;
   flex-wrap: wrap;
 }
